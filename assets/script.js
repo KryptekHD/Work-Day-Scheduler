@@ -21,8 +21,7 @@ $(function () {
         event.preventDefault();
         let value = description.val()
        let key= $(this).parent().attr('id')
-        localStorage.setItem(key,value)
-        return               
+        localStorage.setItem(key,value)           
   })
   
 
